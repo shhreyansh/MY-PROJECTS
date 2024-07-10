@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <nav>
+        <div class="navbar-mainlogo">
+            <a href="http://bombastickk.infinityfreeapp.com/?i=1">
+                <img class="navbar-n" src="https://cdn1.iconfinder.com/data/icons/capsocial/500/iconfinder-512.png" alt="logo">   
+            </a>
+        </div>
+        <div class="navbar-mainhead">
+            <h1><center>
+                CALCULATOR
+            </center></h1>
+        </div>
+        <div class="navbar-mainsocials">              
+            <a href="https://www.linkedin.com/in/kartikey-here/">  
+                <img class="navbar-n" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-square1-512.png" alt="linkedin">
+            </a>
+            <a href="https://www.instagram.com/kartikey_._here/">  
+                <img class="navbar-n" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png" alt="ig">
+            </a>
+            <a href="https://twitter.com/kartikey_here">
+                <img class="navbar-n" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitter-square2-512.png" alt="twitter">
+            </a>
+            <a href="https://www.reddit.com/user/cooolkits">
+                <img class="navbar-n" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-reddit-square1-512.png" alt="reddit">
+            </a>
+        </div>
+    </nav> -->
+    <div class="cc">
+        <h1>CALCULATOR</h1>
+    <form action="">
+        <div class="display">
+            <input type="text" name="text" id="out" readonly>
+        </div>
+        <div class="act">
+            <div id="emp"></div>
+            <input type="button" id="sum" onclick="add('+')" value="+">
+            <input type="button" id="num7" onclick="add(7)" value="7">
+            <input type="button" id="num8" onclick="add(8)" value="8">
+            <input type="button" id="num9" onclick="add(9)" value="9">
+            <input type="button" id="num4" onclick="add(4)" value="4">
+            <input type="button" id="num5" onclick="add(5)" value="5">
+            <input type="button" id="num6" onclick="add(6)" value="6">
+            <input type="button" id="num1" onclick="add(1)" value="1">
+            <input type="button" id="num2" onclick="add(2)" value="2">
+            <input type="button" id="num3" onclick="add(3)" value="3">
+            <input type="button" id="div" onclick="add('/')" value="/">
+            <input type="button" id="mul" onclick="add('*')" value="X">
+            <input type="button" id="sub" onclick="add('-')" value="-">
+            <input type="button" id="equal" onclick="cal()" value="=">
+            <input type="button" id="num0" onclick="add(0)" value="0">
+            <input type="button" id="dec" onclick="add('.')" value=".">
+            <input type="reset"  id="clear" value="C">
+        </div>
+    </form>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
